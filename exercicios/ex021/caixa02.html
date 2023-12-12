@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+        }
+        
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        header>nav {
+            background-color: green;
+            padding: 10px
+        }
+        
+        nav {
+            box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+        }
+        
+        nav>a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: .3s;
+            margin: 0px 10px;
+        }
+        
+        nav>a:hover {
+            color: black;
+        }
+        
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        footer>p {
+            margin: 0;
+        }
+        
+        #servicos>h3 {
+            background-color: grey;
+            color: white;
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Serviços</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section id="slide">
+            <h2>Meu site</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium adipisci labore tenetur blanditiis, voluptatum autem magnam illum suscipit perspiciatis nisi, non facere a! Distinctio perferendis, earum assumenda quas corrupti odio.</p>
+        </section>
+        <section id="servicos">
+            <h2>Nossos serviços</h2>
+            <h3>Serviço 01</h3>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Flávio Montenegro.</p>
+    </footer>
+</body>
+
+</html>
+
+</html>

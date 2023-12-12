@@ -1,0 +1,22 @@
+body h1,
+p,
+a {
+    color: #fff;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    ;
+}
+
+body {
+    background-color: #000;
+}
+
+body iframe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

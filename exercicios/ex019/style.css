@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+    background-color: gray;
+    font-family: 'Poppins', sans-serif;
+}
+
+.principal {
+    color: yellow;
+    background-color: black;
+    font-size: 3em;
+    text-align: center;
+}
+
+.subtitulo {
+    color: orange;
+    background-color: rebeccapurple;
+    font-size: 2em;
+    text-align: center;
+    margin: 0px 50px 0px 50px;
+}
+
+.texto {
+    color: white;
+    background-color: blue;
+    text-align: justify;
+}
+
+.principal,
+.subtitulo,
+.texto {
+    line-height: 100%;
+}

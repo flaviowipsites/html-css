@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Magical';
+    src: url('fontes/Magical Childhood.otf') format(opentype), url('fntes/Magical Childhood.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Magical';
+}
+
+h1 {
+    font-family: 'Magical';
+}
+
+p {
+    font-family: 'Magical';
+    font-size: 16px;
+}
