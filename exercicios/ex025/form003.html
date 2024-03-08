@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <div>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" autocomplete="name" placeholder="Nome Completo" required>
+        </div>
+        <div>
+            <label for="nota">Nota</label>
+            <input type="number" name="nota" id="nota" placeholder="Nota" autocomplete="Nota" required>
+        </div>
+        <div>
+            <label for="mes">Mês</label>
+            <input type="month" name="mes" id="mes" required>
+        </div>
+        <div>
+            <label for="dia">Dia</label>
+            <input type="date" name="dia" id="dia" required>
+        </div>
+        <div>
+            <label for="hora">Hora</label>
+            <input type="time" name="hora" id="hora" required>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
